@@ -4,27 +4,28 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style/estilos.css" />
     <title>Este es el título</title>
   </head>
   <body>
     <header>
-        <h3>Esto es una lista ordenada</h3>
-        <ol>
-            <li>Elemento 1</li>
-            <li>Elemento 2</li>
-            <li>Elemento 3</li>
-            <li>Elemento 4</li>
-            <li>Elemento 5</li>
-        </ol>
-        <h3>Esta es una lista desordenada</h3>
-        <ul>
-            <li>Elemento 1</li>
-            <li>Elemento 2</li>
-            <li>Elemento 3</li>
-            <li>Elemento 4</li>
-            <li>Elemento 5</li>
-        </ul>
-        <div>Esto es un div</div>
+      <h3>Esto es una lista ordenada</h3>
+      <ol>
+        <li>Elemento 1</li>
+        <li>Elemento 2</li>
+        <li>Elemento 3</li>
+        <li>Elemento 4</li>
+        <li>Elemento 5</li>
+      </ol>
+      <h3>Esta es una lista desordenada</h3>
+      <ul>
+        <li>Elemento 1</li>
+        <li>Elemento 2</li>
+        <li>Elemento 3</li>
+        <li>Elemento 4</li>
+        <li>Elemento 5</li>
+      </ul>
+      <div class="textoGrandreNegrita">Esto es un div</div>
     </header>
     <main>
       <section>
@@ -35,26 +36,36 @@
             alt="foto de un felino"
           />
         </a>
-        <br/>
+        <br />
         <a href="./paginatest.html">Este es un link interno</a>
-        <br/>
+        <br />
         <a href="./formulario.html">Ir al formulario</a>
         <article>
           <h3>párrafo 1</h3>
           <p>Esto es un párrafo</p>
           <h3>párrafo 2</h3>
-          <p>Esto es el segundo párrafo</p>
+          <p id="parrafo2">Esto es el segundo párrafo</p>
           <span>Este es un texto corto</span>
         </article>
-        <p>Imagen local</p>
-        <img src="./media/perro.jpg" alt="Foto propia" />
-        <p>Imagen remota</p>
+        <p class="parrafoGris">Imagen local</p>
+        <img class="imagenPequeña" src="./media/perro.jpg" alt="Foto propia" />
+        <p class="parrafoGris fondoAmarillo">Imagen remota</p>
         <img
+          class="imagenPequeña"
           src="	https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png"
           alt="foto de un felino"
         />
       </section>
-      <section>Tabla con la info</section>
+      <section class="contenedorConMargin">
+        <div>div1</div>
+        <div>div2</div>
+        <div>div3</div>
+      </section>
+      <div class="divTest contenedorTest">
+        <div>Div4</div>
+        <div>Div5</div>
+        <div>Div6</div>
+      </div>
     </main>
     <footer>Este es el footer de la página</footer>
   </body>
