@@ -1,33 +1,46 @@
-body{
-    margin: 0px;
+body {
+  margin: 0px;
 }
 
-ul{
-    list-style: none
+ul {
+  list-style: none;
 }
 
-.navbar{
-    display: flex;
-    justify-content: space-between;
-    margin: 0px;
-    padding: 10px;
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  margin: 0px;
+  padding: 10px;
 }
 
 .logo{
     height: 60px;
 }
 
-.mainbutton{
-    background-color: rgb(41, 41, 243);
-    color: white;
-    border: 0px;
-    padding: 5px 10px;
-    border-radius: 10px;
-    font-weight: bolder;
+.button {
+  color: white;
+  border: 0px;
+  padding: 5px 10px;
+  border-radius: 10px;
+  font-weight: bolder;
+}
+.mainbutton {
+  background-color: rgb(41, 41, 243);
 }
 
-.mainbutton:hover{
-    cursor: pointer;
-    box-shadow: 1px 1px blue;
-    transform: scale(1.2);
+.mainbutton:hover {
+  box-shadow: 1px 1px blue;
+}
+
+.button:hover {
+  cursor: pointer;
+  transform: scale(1.2);
+}
+
+.secondarybutton {
+  background-color: rgb(101, 101, 216);
+}
+
+.secondarybutton:hover{
+    box-shadow: 1px 1px rgb(53, 53, 206);
 }
