@@ -24,6 +24,7 @@ ul {
   border-radius: 10px;
   font-weight: bolder;
 }
+
 .mainbutton {
   background-color: rgb(41, 41, 243);
 }
@@ -43,4 +44,20 @@ ul {
 
 .secondarybutton:hover{
     box-shadow: 1px 1px rgb(53, 53, 206);
+}
+
+.buscar{
+    background-color: white;
+    border: 1px solid gray;
+    padding: 4px;
+    border-radius: 8px;
+}
+
+.buscar:focus-within{
+    border: 1px solid red;
+}
+
+.buscar>input{
+    outline: none;
+    border: 0px;
 }
