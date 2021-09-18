@@ -11,14 +11,21 @@ ul {
   justify-content: space-between;
   margin: 0px;
   padding: 10px;
+  background-color: rgb(226, 241, 169);
+  border-bottom: 1px solid gray;
+  box-shadow: 1px 1px gray;
 }
 
-.logo{
-    height: 60px;
+.navbar > li {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  height: 60px;
 }
 
 .button {
-  color: white;
   border: 0px;
   padding: 5px 10px;
   border-radius: 10px;
@@ -27,6 +34,7 @@ ul {
 
 .mainbutton {
   background-color: rgb(41, 41, 243);
+  color: white;
 }
 
 .mainbutton:hover {
@@ -40,24 +48,32 @@ ul {
 
 .secondarybutton {
   background-color: rgb(101, 101, 216);
+  color: white;
 }
 
-.secondarybutton:hover{
-    box-shadow: 1px 1px rgb(53, 53, 206);
+.secondarybutton:hover {
+  box-shadow: 1px 1px rgb(53, 53, 206);
 }
 
-.buscar{
-    background-color: white;
-    border: 1px solid gray;
-    padding: 4px;
-    border-radius: 8px;
+.buscar {
+  background-color: white;
+  border: 1px solid gray;
+  padding: 4px;
+  border-radius: 8px;
+  width: 300px;
+  display: flex;
+  justify-content: space-between;
 }
 
-.buscar:focus-within{
-    border: 1px solid red;
+.buscar:focus-within {
+  border: 1px solid red;
 }
 
-.buscar>input{
-    outline: none;
-    border: 0px;
+.buscar > input {
+  outline: none;
+  border: 0px;
+}
+
+.iconoBusqueda:hover {
+  color: blue;
 }
