@@ -6,6 +6,21 @@ ul {
   list-style: none;
 }
 
+.mainContainer{
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.mainContainer > main{
+  height: 100%;
+}
+
+.mainContainer > footer {
+  background-color: chocolate;
+  padding: 10px;
+}
+
 .navbar {
   display: flex;
   justify-content: space-between;

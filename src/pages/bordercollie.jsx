@@ -1,9 +1,5 @@
-function BorderCollieFontPage(){
-    return(
-        <div>
-            Esta es la página de info del BorderCollie
-        </div>
-    );
+function BorderCollieFontPage() {
+  return <div>Información sobre el BorderCollie</div>;
 }
 
 export default BorderCollieFontPage;
